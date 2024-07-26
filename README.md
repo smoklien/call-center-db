@@ -28,6 +28,37 @@ A relational database that was created with __MySQL Workbench__ for managing wor
 
 # Getting Started
 
+## Windows
+
+1. Download and Install __MySQL__:
+
+    - Visit the [MySQL Downloads](https://dev.mysql.com/downloads/) page
+    - Download the MySQL Installer for Windows
+    - Run the installer and follow the installation instructions
+
+2. Open __MySQL Command Line Client__:
+
+    Run the following command to connect to your MySQL server as the root user:
+
+    ```bash
+    -h 127.0.0.1 -P 3306 -u root -p
+    ```
+
+    - `-h 127.0.0.1`: Specifies the hostname (localhost)
+    - `-P 3306`: Specifies the port number (default MySQL port)
+    - `-u root`: Specifies the username (root user)
+    - `-p`: Prompts for the root user's password
+
+3. Run the Backup File
+
+    Use the `source` command to execute the SQL backup file and restore the database:
+
+    ```bash
+    source path-to-repository/call-center-db/backup/database-backup.sql;
+    ```
+
+    Replace `path-to-repository` with the actual path to your repository
+    
 ## Linux
 
 1. Download and Install __MySQL__:
