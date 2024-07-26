@@ -2,7 +2,7 @@
 
 A relational database that was created with __MySQL Workbench__ for managing work of the call center
 
-![database-diagram-dark](diagrams\database-diagram-dark.png)
+![database-diagram-dark](diagrams/database-diagram-dark.png)
 
 # Repository Structure
 
